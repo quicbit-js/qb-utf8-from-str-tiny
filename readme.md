@@ -1,5 +1,12 @@
 # qb-utf8-from-str-tiny
 
+[![npm][npm-image]][npm-url]
+[![downloads][downloads-image]][npm-url]
+
+[npm-image]:       https://img.shields.io/npm/v/qb-utf8-from-str-tiny.svg
+[downloads-image]: https://img.shields.io/npm/dm/qb-utf8-from-str-tiny.svg
+[npm-url]:         https://npmjs.org/package/qb-utf8-from-str-tiny
+
 Tiny script for converting string to array of utf-8 based upon encodeURIComponent().  
 Runs in nodejs and in browser.  Not efficient for large strings.
 
