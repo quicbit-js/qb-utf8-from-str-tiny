@@ -7,9 +7,9 @@
   "email": "support@quicbit.com",
   "repository": "quicbit-js/qb-utf8-from-str-tiny",
   "devDependencies": {
-    "qb-utf8-to-str-tiny": "^1.1.2",
+    "qb-utf8-to-str-tiny": "^1.1.3",
     "tape": "^4.6.3",
-    "test-kit": "^2.0.1"
+    "test-kit": "^2.1.3"
   },
   "scripts": {
     "test": "tap --coverage-report=html test.js"
