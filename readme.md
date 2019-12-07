@@ -57,5 +57,5 @@ That's it.  That's the code.
 ### utf8-from-str (s)
 
 * [s](https://github.com/quicbit-js/qb-standard/blob/master/doc/variable-glossary.md#s-string): a
-javascript string to convert to an array of bytes in UTF-8 format
+javascript string to convert to an array of integer bytes (integers in the range 0..255) in UTF-8 format
 
