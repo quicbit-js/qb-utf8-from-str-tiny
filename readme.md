@@ -40,3 +40,22 @@ That's it.  That's the code.
 # Install
 
     npm install qb-utf8-from-str-tiny
+    
+    
+## Example
+
+    npm install qb-utf8-from-str-tiny
+    
+    node
+    > var str = require('qb-utf8-from-str-tiny')
+    > str('gîddñup𐂃!')
+    [ 103, 195, 174, 100, 100, 195, 177, 117, 112, 240, 144, 130, 131, 33 ]
+
+
+## API
+
+### utf8-from-str (s)
+
+* [s](https://github.com/quicbit-js/qb-standard/blob/master/doc/variable-glossary.md#s-string): a
+javascript string to convert to an array of bytes in UTF-8 format
+
