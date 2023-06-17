@@ -1,6 +1,5 @@
-var test = require('test-kit').tape()
-var utf8_from_str = require('.')
-var utf8_to_str = require('qb-utf8-to-str-tiny')
+const test = require('test-kit').tape()
+const utf8_from_str = require('.')
 
 test('utf8', function (t) {
     t.tableAssert(
@@ -20,8 +19,8 @@ test('utf8', function (t) {
 })
 
 test('ascii', function (t) {
-  for(var i=0; i<128; i++) {
-    var s = String.fromCharCode(i)
+  for(let i=0; i<128; i++) {
+    let s = String.fromCharCode(i)
     t.same(utf8_from_str(s), [i], t.desc('ascii', [s], [i]))
   }
   t.end()
